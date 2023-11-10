@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const loadNav = require("../utilities/loadNav");
 
 /**
  *
@@ -15,10 +16,7 @@ function index(req, res) {
         "utf-8"
       );
 
-      const navbar = fs.readFileSync(
-        path.resolve(__dirname, "../components/navbar.html"),
-        "utf-8"
-      );
+      const navbar = loadNav();
       const finalHome = homePage.replace("@navbar", navbar);
 
       res.type("html").send(finalHome);

@@ -2,6 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const jsonPosts = require("../posts.json");
+const loadNav = require("../utilities/loadNav");
 
 /**
  *
@@ -19,25 +20,25 @@ function index(req, res) {
       //   editing html file with main content
       const htmlContent = [];
 
-      htmlContent.push("<ul>");
+      htmlContent.push('<div id="container">');
 
       for (const post of jsonPosts) {
         htmlContent.push(
-          `<li>
-            <h3>${post.title}</h3> 
-            <br> <strong> Content: </strong> ${post.content}  
-            <br> <strong> Tags: </strong> ${post.tags} 
-            <br> <img src='/imgs/${post.src}' style="width: 250px; height: 150px"> 
-          </li>`
+          `<div class="card" style="width: 18rem;">
+            <img id="card-img" src='/imgs/${post.src}'>
+                <div class="card-body">
+                    <h2>${post.title} </h2>
+                    <p class="card-text">${post.content} </p>
+                    <strong>${post.tags} </strong>
+                </div>
+            </div>`
         );
       }
 
-      htmlContent.push("</ul>");
+      htmlContent.push("</div>");
       const joinedHtml = htmlContent.join("");
-      const navbar = fs.readFileSync(
-        path.resolve(__dirname, "../components/navbar.html"),
-        "utf-8"
-      );
+      const navbar = loadNav();
+
       const finalContent = posts
         .replace("@content", joinedHtml)
         .replace("@navbar", navbar);
