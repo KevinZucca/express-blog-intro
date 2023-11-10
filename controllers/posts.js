@@ -21,6 +21,7 @@ function index(req, res) {
       const htmlContent = [];
 
       htmlContent.push('<div id="container">');
+      htmlContent.push("<h1>Destinations</h1>");
 
       for (const post of jsonPosts) {
         htmlContent.push(
@@ -35,7 +36,7 @@ function index(req, res) {
         );
       }
 
-      htmlContent.push("</div>");
+      htmlContent.push("</>");
       const joinedHtml = htmlContent.join("");
       const navbar = loadNav();
 
