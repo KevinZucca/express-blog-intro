@@ -6,6 +6,9 @@ const postsController = require("./controllers/posts");
 
 const port = process.env.PORT;
 
+// static files configuration
+app.use(express.static("public"));
+
 // ROUTES
 app.get("/", homeController.index);
 app.get("/posts", postsController.index);

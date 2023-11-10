@@ -23,7 +23,12 @@ function index(req, res) {
 
       for (const post of jsonPosts) {
         htmlContent.push(
-          `<li><h3>${post.title}</h3> <br> ${post.content} <br> <img src='${post.src}' style="width= 200px"> </li>`
+          `<li>
+            <h3>${post.title}</h3> 
+            <br> <strong> Content: </strong> ${post.content}  
+            <br> <strong> Tags: </strong> ${post.tags} 
+            <br> <img src='/imgs/${post.src}' style="width: 250px; height: 150px"> 
+          </li>`
         );
       }
 
