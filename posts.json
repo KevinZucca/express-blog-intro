@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Discovering Santorini",
+    "content": "Experience the beauty of Santorini through our journey. Discover the captivating landscapes and vibrant culture.",
+    "src": "santorini_src.jpeg",
+    "tags": [
+      "travel",
+      "Greece",
+      "islands"
+    ]
+  },
+  {
+    "title": "A Safari Adventure in Serengeti",
+    "content": "Embark on an exhilarating safari adventure in the Serengeti. Witness the awe-inspiring wildlife and breathtaking landscapes of Tanzania.",
+    "src": "serengeti_src.jpeg",
+    "tags": [
+      "travel",
+      "Tanzania",
+      "safari"
+    ]
+  },
+  {
+    "title": "Exploring the Streets of Tokyo",
+    "content": "Immerse yourself in the vibrant streets of Tokyo. Experience the fusion of traditional and modern Japan in this bustling cityscape.",
+    "src": "tokyo_src.jpeg",
+    "tags": [
+      "travel",
+      "Japan",
+      "cityscape"
+    ]
+  },
+  {
+    "title": "Adventures in Patagonia",
+    "content": "Embark on thrilling adventures in the stunning landscapes of Patagonia, Argentina. Explore the wild and untamed beauty of the region.",
+    "src": "patagonia_src.jpeg",
+    "tags": [
+      "travel",
+      "Argentina",
+      "adventure"
+    ]
+  },
+  {
+    "title": "Cultural Delights of Marrakech",
+    "content": "Delve into the rich cultural tapestry of Marrakech, Morocco. Experience the vibrant markets, historic landmarks, and unique traditions.",
+    "src": "marrakech_src.jpeg",
+    "tags": [
+      "travel",
+      "Morocco",
+      "culture"
+    ]
+  },
+  {
+    "title": "Island Hopping in the Maldives",
+    "content": "Escape to paradise with our Maldives island-hopping adventure. Discover the crystal-clear waters and idyllic landscapes of the Maldivian islands.",
+    "src": "maldives_src.jpeg",
+    "tags": [
+      "travel",
+      "Maldives",
+      "islands"
+    ]
+  },
+  {
+    "title": "Historical Wonders of Rome",
+    "content": "Step back in time and explore the historical wonders of Rome, Italy. From ancient ruins to iconic landmarks, experience the grandeur of Roman history.",
+    "src": "rome_src.jpeg",
+    "tags": [
+      "travel",
+      "Italy",
+      "history"
+    ]
+  },
+  {
+    "title": "Sailing the Amalfi Coast",
+    "content": "Sail along the stunning Amalfi Coast of Italy. Experience the beauty of the coastline, charming villages, and azure waters on this unforgettable journey.",
+    "src": "amalfi_src.jpeg",
+    "tags": [
+      "travel",
+      "Italy",
+      "coastline"
+    ]
+  }
+]
