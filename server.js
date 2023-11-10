@@ -3,6 +3,7 @@ const app = express();
 const dotenv = require("dotenv").config();
 const homeController = require("./controllers/home");
 const postsController = require("./controllers/posts");
+const aboutController = require("./controllers/about");
 
 const port = process.env.PORT;
 
@@ -12,6 +13,7 @@ app.use(express.static("public"));
 // ROUTES
 app.get("/", homeController.index);
 app.get("/posts", postsController.index);
+app.get("/about", aboutController.index);
 
 //SERVER LISTEN
 app.listen(port || 8000, () => {

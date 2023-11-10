@@ -1,6 +1,6 @@
 const express = require("express");
-const fs = require("fs");
 const path = require("path");
+const fs = require("fs");
 
 /**
  *
@@ -10,18 +10,17 @@ const path = require("path");
 function index(req, res) {
   res.format({
     html: () => {
-      const homePage = fs.readFileSync(
-        path.resolve(__dirname, "../layouts/homepage.html"),
-        "utf-8"
-      );
-
       const navbar = fs.readFileSync(
         path.resolve(__dirname, "../components/navbar.html"),
         "utf-8"
       );
-      const finalHome = homePage.replace("@navbar", navbar);
+      const about = fs.readFileSync(
+        path.resolve(__dirname, "../layouts/about.html"),
+        "utf-8"
+      );
+      const finalAbout = about.replace("@navbar", navbar);
 
-      res.type("html").send(finalHome);
+      res.type("html").send(finalAbout);
     },
   });
 }

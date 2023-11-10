@@ -14,9 +14,9 @@
     "content": "Embark on an exhilarating safari adventure in the Serengeti. Witness the awe-inspiring wildlife and breathtaking landscapes of Tanzania.",
     "src": "serengeti.jpeg",
     "tags": [
-      "travel",
-      "Tanzania",
-      "safari"
+      "#travel",
+      "#Tanzania",
+      "#safari"
     ]
   },
   {
@@ -24,9 +24,9 @@
     "content": "Immerse yourself in the vibrant streets of Tokyo. Experience the fusion of traditional and modern Japan in this bustling cityscape.",
     "src": "tokyo.jpeg",
     "tags": [
-      "travel",
-      "Japan",
-      "cityscape"
+      "#travel",
+      "#Japan",
+      "#cityscape"
     ]
   },
   {
@@ -34,9 +34,9 @@
     "content": "Embark on thrilling adventures in the stunning landscapes of Patagonia, Argentina. Explore the wild and untamed beauty of the region.",
     "src": "patagonia.jpeg",
     "tags": [
-      "travel",
-      "Argentina",
-      "adventure"
+      "#travel",
+      "#Argentina",
+      "#adventure"
     ]
   },
   {
@@ -44,9 +44,9 @@
     "content": "Delve into the rich cultural tapestry of Marrakech, Morocco. Experience the vibrant markets, historic landmarks, and unique traditions.",
     "src": "marrakech.jpeg",
     "tags": [
-      "travel",
-      "Morocco",
-      "culture"
+      "#travel",
+      "#Morocco",
+      "#culture"
     ]
   },
   {
@@ -54,9 +54,9 @@
     "content": "Escape to paradise with our Maldives island-hopping adventure. Discover the crystal-clear waters and idyllic landscapes of the Maldivian islands.",
     "src": "maldive.jpeg",
     "tags": [
-      "travel",
-      "Maldives",
-      "islands"
+      "#travel",
+      "#Maldives",
+      "#islands"
     ]
   },
   {
@@ -64,9 +64,9 @@
     "content": "Step back in time and explore the historical wonders of Rome, Italy. From ancient ruins to iconic landmarks, experience the grandeur of Roman history.",
     "src": "roma.jpeg",
     "tags": [
-      "travel",
-      "Italy",
-      "history"
+      "#travel",
+      "#Italy",
+      "#history"
     ]
   },
   {
@@ -74,9 +74,9 @@
     "content": "Sail along the stunning Amalfi Coast of Italy. Experience the beauty of the coastline, charming villages, and azure waters on this unforgettable journey.",
     "src": "amalfi.jpeg",
     "tags": [
-      "travel",
-      "Italy",
-      "coastline"
+      "#travel",
+      "#Italy",
+      "#coastline"
     ]
   }
 ]

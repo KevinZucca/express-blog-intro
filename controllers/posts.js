@@ -34,7 +34,13 @@ function index(req, res) {
 
       htmlContent.push("</ul>");
       const joinedHtml = htmlContent.join("");
-      const finalContent = posts.replace("@content", joinedHtml);
+      const navbar = fs.readFileSync(
+        path.resolve(__dirname, "../components/navbar.html"),
+        "utf-8"
+      );
+      const finalContent = posts
+        .replace("@content", joinedHtml)
+        .replace("@navbar", navbar);
 
       res.type("html").send(finalContent);
     },
